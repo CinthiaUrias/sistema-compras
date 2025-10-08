@@ -1,2 +1,2 @@
 # sistema-compras
-Actividad Proyectos II
+Backlog y Sprint Schedule del proyecto
