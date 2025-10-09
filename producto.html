@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Detalle del producto - Sistema de compras</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Detalle del producto</h1>
+    <nav class="topnav">
+      <a href="index.html">Productos</a>
+      <a href="carrito.html" class="cart-link">Carrito (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="detalle" class="detalle"></section>
+  </main>
+
+  <div id="toast" class="toast" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      renderProductDetail();
+      updateCartCount();
+    });
+  </script>
+</body>
+</html>

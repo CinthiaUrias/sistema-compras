@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Carrito de compras - Sistema de compras</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Tu carrito</h1>
+    <nav class="topnav">
+      <a href="index.html">Productos</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="carrito-contenido" class="carrito-contenido"></section>
+
+    <section class="checkout">
+      <h2>Pago simulado</h2>
+      <form id="checkout-form">
+        <label>Nombre:</label>
+        <input type="text" id="nombre" required placeholder="Tu nombre">
+        <label>Correo:</label>
+        <input type="email" id="correo" required placeholder="tucuenta@correo.com">
+        <label>Tarjeta (simulada):</label>
+        <input type="text" id="tarjeta" required placeholder="4111 1111 1111 1111">
+        <button type="submit">Pagar (sandbox)</button>
+      </form>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      renderCartPage();
+      updateCartCount();
+      document.getElementById('checkout-form').addEventListener('submit', (e) => {
+        e.preventDefault();
+        simulatedPayment();
+      });
+    });
+  </script>
+</body>
+</html>

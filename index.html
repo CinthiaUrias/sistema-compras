@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sistema de compras - Electrónicos</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Sistema de compras — Electrónicos</h1>
+    <nav class="topnav">
+      <button data-cat="all" class="cat-btn active">Todos</button>
+      <button data-cat="Smartphones" class="cat-btn">Smartphones</button>
+      <button data-cat="Laptops" class="cat-btn">Laptops</button>
+      <button data-cat="Accesorios" class="cat-btn">Accesorios</button>
+      <a href="carrito.html" class="cart-link">Carrito (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="productos" class="grid"></section>
+  </main>
+
+  <div id="toast" class="toast" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+  <script>
+    // Load product cards on page load
+    document.addEventListener('DOMContentLoaded', () => {
+      renderProducts();
+      updateCartCount();
+      setupCategoryButtons();
+    });
+  </script>
+</body>
+</html>
