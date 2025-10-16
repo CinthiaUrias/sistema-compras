@@ -1,37 +1,51 @@
-Sistema de compras - Prototype
-=============================
-Proyecto: Sistema de compras (Electrónicos)
-Propósito: Prototipo funcional para respaldar la actividad de backlog y sprints.
-Tecnologías: HTML, CSS, JavaScript (sin backend). Persistencia local: localStorage.
+# Sistema de Compras - Proyecto React con Vite
 
-Archivos
-- index.html: listado de productos y navegación por categorías.
-- producto.html: detalle de producto y adicionar al carrito.
-- carrito.html: ver carrito, modificar cantidades y pagar (simulado).
-- estilos.css: estilos responsivos y neutros.
-- script.js: lógica de productos, carrito, persistencia, inventario, y pago simulado.
-- README.md: este archivo.
+## Descripción
+Sistema de compras en React, desarrollado con Vite, que permite:
+- Navegación por categorías.
+- Visualización de detalle del producto.
+- Carrito de compras con validaciones.
+- Pasarela de pago funcional (simulada).
 
-Instrucciones rápidas
-1. Descomprime y abre `index.html` en tu navegador (o sube la carpeta a GitHub Pages).
-2. Prueba agregar productos al carrito, ir a carrito y realizar el 'pago simulado'.
-3. El sistema persiste el carrito y los stocks en localStorage, así que los cambios permanecen en tu navegador.
-4. Para resetear datos (stocks originales), abre la consola y ejecuta:
-   localStorage.removeItem('sistema_compras_products_v1');
-   localStorage.removeItem('sistema_compras_cart_v1');
-   localStorage.removeItem('sistema_compras_orders_v1');
-   location.reload();
+## Instalación
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/CinthiaUrias/sistema-compras.git
+```
+2. Entrar en la carpeta del proyecto:
+```bash
+cd sistema_compras
+```
+3. Instalar dependencias:
+```bash
+npm install
+```
+4. Ejecutar el proyecto:
+```bash
+npm run dev
+```
 
-Cómo subir a GitHub
-1. Crea un repositorio público en GitHub.
-2. Desde tu terminal:
-   git init
-   git add .
-   git commit -m "Prototipo: sistema de compras - Electrónicos"
-   git branch -M main
-   git remote add origin https://github.com/TU_USUARIO/REPO.git
-   git push -u origin main
+## Avances de Sprints
+- Sprint 1: Navegación por categorías y detalle de producto completados.
+- Sprint 2: Carrito de compras y pasarela de pago en progreso.
+- Ajustes realizados: optimización de componentes y validaciones.
 
-Nota
-- Este prototipo es front-end y usa localStorage para simular persistencia e inventario.
-- Las transacciones son simuladas (sandbox). Si necesitas integración real con una pasarela, puedo añadir un ejemplo con Stripe/PayPal (sandbox) después.
+## Estructura del proyecto
+```
+src/
+├── componentes/
+│   ├── Categorias.jsx
+│   ├── DetalleProducto.jsx
+│   ├── CarritoCompras.jsx
+│   └── PasarelaPago.jsx
+public/
+├── index.html
+documentacion/
+├── Avance_Sprint1_2.md
+README.md
+package.json
+vite.config.js
+```
+
+## Repositorio
+[https://github.com/CinthiaUrias/sistema-compras](https://github.com/CinthiaUrias/sistema-compras)
