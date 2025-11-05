@@ -1,24 +1,31 @@
-# Sistema Compras
+# Sistema de Compras en React
 
-Proyecto base de la **Actividad 3** — Tercera fase de desarrollo.
+Proyecto desarrollado como parte de la Unidad 3 - Proyectos II.
 
-## Qué incluye
-- Vite + React (estructura lista para `npm install`).
-- Componentes: Navbar, ProductList, ProductCard, Cart, Notifications.
-- Persistencia del carrito con `localStorage`.
-- Notificaciones con `react-toastify`.
+## Descripción
+Aplicación web que permite navegar por productos, agregarlos al carrito, realizar compras y recibir notificaciones de confirmación.
 
-## Instalación
-```bash
-npm install
-npm run dev
-```
+## Tecnologías utilizadas
+- React.js
+- JavaScript (ES6)
+- LocalStorage / API REST
+- CSS / Bootstrap
 
-## Estructura
-- /src
-  - main.jsx
-  - App.jsx
-  - /components
+## Estructura del proyecto
+- `src/components/`: Componentes principales (Navbar, Cart, ProductList, etc.)
+- `src/hooks/`: Funciones para manejo de estado y persistencia.
+- `src/context/`: Contextos globales de la app.
+- `public/`: Archivos estáticos.
 
-### Notas
-- Actualiza la liga remota en GitHub a `https://github.com/CinthiaUrias/sistema-compras.git`
+## Avances por Sprint
+| Sprint | Funcionalidades | Estado |
+|---------|----------------|---------|
+| Sprint 1 | Navegación por categorías, detalle de producto | ✅ Completado |
+| Sprint 2 | Carrito de compras, pasarela de pago | ✅ Completado |
+| Sprint 3 | Notificaciones, persistencia del carrito | ✅ Completado |
+| Sprint 4 | Control de inventario, usabilidad responsive | 🔄 En progreso |
+
+## Autora
+**Cinthia Carolina Urias Fuerte**
+
+_Tijuana, Baja California - Noviembre 2025_
