@@ -9,7 +9,6 @@ const PRODUCTS = [
   {id:5,name:"Mouse Inalámbrico",category:"Accesorios",price:399,stock:20,images:["https://picsum.photos/seed/p5/800/600"],desc:"Mouse ergonómico con sensor de alta precisión."},
   {id:6,name:"Laptop Ultraligera ",category:"Laptops",price:18999,stock:2,images:["https://picsum.photos/seed/p6/800/600"],desc:"Ultraligera, ideal para movilidad y trabajo remoto."}
 ];
-
 const LS_CART = "sistema_compras_cart_v1";
 const LS_ORDERS = "sistema_compras_orders_v1";
 const LS_PRODUCTS = "sistema_compras_products_v1"; // used to persist stock across sessions
