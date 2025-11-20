@@ -1,119 +1,70 @@
-🚀 Sistema de Compras – Proyecto en React
-Licenciatura en Desarrollo de Sistemas Web – Proyectos II
+Sistema de Compras – Proyecto Escolar
 
-Autora: Cinthia Carolina Urias Fuerte
+Este repositorio contiene el proyecto desarrollado para la materia de Proyectos II de la Licenciatura en Desarrollo de Sistemas Web. El sistema tiene como finalidad simular un proceso básico de compras, incluyendo gestión de productos, control de inventario y recuperación de contraseña.
 
-📌 Descripción del proyecto
+Descripción general
 
-Este sistema de compras fue desarrollado utilizando React y Vite. Incluye navegación por productos, carrito, pasarela simulada de pago, notificaciones, persistencia del carrito y control básico de inventario.
+El proyecto incluye las siguientes funcionalidades principales:
 
-El proyecto forma parte de la tercera y cuarta fase de desarrollo de la materia Proyectos II, siguiendo una metodología ágil basada en Sprints y backlog administrado.
+Navegación por categorías
 
-🛠 Tecnologías utilizadas
+Vista del detalle de productos
 
-React
+Carrito de compras
 
-Vite
+Simulación de pasarela de pago
 
-JavaScript
+Notificaciones básicas
 
-Node.js
+Persistencia del carrito
 
-CSS
+Control de inventario
 
-LocalStorage
+Ajustes de diseño responsive
 
-Toasts / Alerts
+Recuperación de contraseña mediante token
 
-Git & GitHub
+Modificaciones recientes del sprint
 
-📥 Instalación y ejecución
+Estas modificaciones corresponden a la revisión realizada en equipo e incluyen ajustes solicitados previamente por el asesor.
 
-Sigue estos pasos para ejecutar el proyecto localmente:
+PB-07 – Control de inventario
 
-# 1. Clonar el repositorio
-git clone https://github.com/CinthiaUrias/sistema-compras.git
+Se agregó validación para evitar stock negativo.
 
-# 2. Entrar al proyecto
-cd sistema-compras
+Se incluyó un mensaje de alerta para el usuario.
 
-# 3. Instalar dependencias
-npm install
+Se actualizó la lógica del controlador.
 
-# 4. Ejecutar el proyecto en modo desarrollo
-npm run dev
+PB-08 – Usabilidad y diseño responsive
 
-📂 Estructura del proyecto
-/src
-  /components
-  /pages
-  /context
-  /hooks
-  /styles
-/public
-README.md
-package.json
-vite.config.js
-index.html
+Se ajustaron estilos para mejorar la visualización en dispositivos móviles.
 
-🧩 Funciones por Sprint
-✔ Sprint 1 – Funcionalidades base
+Se añadieron media queries.
 
-PB-01 Navegación por categorías
+Se optimizó la estructura de algunos elementos.
 
-PB-02 Vista de detalle del producto
+PB-09 – Recuperación de contraseña
 
-✔ Sprint 2 – Flujo de compra
+Se agregó el flujo completo con token.
 
-PB-03 Carrito de compras
+Se integró el envío del correo para restablecimiento.
 
-PB-04 Pasarela de pago
+Se añadieron validaciones sobre expiración del token.
 
-✔ Sprint 3 – Experiencia del usuario
+Los cambios anteriores pueden verificarse directamente en el historial de commits.
 
-PB-05 Notificaciones (Toasts, Alerts)
-
-PB-06 Persistencia del carrito (localStorage + sincronización)
-
-⏳ Sprint 4 – Última fase (en progreso)
-
-PB-07 Control de inventario
-
-PB-08 Usabilidad y responsive
-
-PB-09 Recuperación de contraseña
-
-📌 Product Backlog (resumen)
+Backlog actualizado
 ID	Historia	Estado
-PB-01	Navegación por categorías	✔ Completado
-PB-02	Detalle del producto	✔ Completado
-PB-03	Carrito de compras	✔ Completado
-PB-04	Pasarela de pago	✔ Completado
-PB-05	Notificaciones	✔ Completado
-PB-06	Persistencia del carrito	✔ Completado
-PB-07	Control de inventario	⏳ En progreso
-PB-08	Usabilidad y responsive	⏳ Pendiente
-PB-09	Recuperación de contraseña	⏳ Pendiente
-📘 Documentación del proyecto
+PB-07	Control de inventario	Finalizado
+PB-08	Usabilidad y responsive	En pruebas
+PB-09	Recuperación de contraseña	En pruebas
+Commits relacionados
 
-La documentación complementaria se encuentra incluida en el repositorio:
+En el historial del repositorio se pueden encontrar los commits que corresponden a los ajustes mencionados. Algunos de los mensajes utilizados fueron:
 
-Bitácora de reuniones
+feat(PB-07): Validación para evitar stock negativo
 
-Sprint Schedule
+update(PB-08): Ajustes responsive
 
-Product Backlog completo
-
-Roles del equipo
-
-Ajustes realizados por fase
-
-Entregables de unidades anteriores
-
-🔗 Repositorio
-
-https://github.com/CinthiaUrias/sistema-compras
-
-✅ Estado actual del proyecto
-
-El sistema cuenta con todas las funcionalidades principales completas y se encuentra en la fase final para implementar control de inventario, usabilidad, responsive y recuperación de contraseña.
+feat(PB-09): Implementación de recuperación de contraseña
