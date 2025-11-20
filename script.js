@@ -7,7 +7,7 @@ const PRODUCTS = [
   {id:3,name:"Audífonos Bluetooth",category:"Accesorios",price:1299,stock:12,images:["https://picsum.photos/seed/p3/800/600"],desc:"Audífonos con cancelación de ruido y 30h de batería."},
   {id:4,name:"Smartphone Y2",category:"Smartphones",price:5999,stock:3,images:["https://picsum.photos/seed/p4/800/600"],desc:"Modelo económico con buen rendimiento diario."},
   {id:5,name:"Mouse Inalámbrico",category:"Accesorios",price:399,stock:20,images:["https://picsum.photos/seed/p5/800/600"],desc:"Mouse ergonómico con sensor de alta precisión."},
-  {id:6,name:"Laptop Ultraligera 13",category:"Laptops",price:18999,stock:2,images:["https://picsum.photos/seed/p6/800/600"],desc:"Ultraligera, ideal para movilidad y trabajo remoto."}
+  {id:6,name:"Laptop Ultraligera ",category:"Laptops",price:18999,stock:2,images:["https://picsum.photos/seed/p6/800/600"],desc:"Ultraligera, ideal para movilidad y trabajo remoto."}
 ];
 
 const LS_CART = "sistema_compras_cart_v1";
