@@ -13,7 +13,7 @@
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--accent);line-height:1.4}
 .site-header{background:var(--card);padding:16px;border-bottom:1px solid #eee;display:flex;flex-direction:column;gap:8px}
-.site-header h1{margin:0;font-size:18px}
+.site-header h1{margin:0;font-size:17px}
 .topnav{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .topnav a,.topnav button{background:transparent;border:0;padding:8px 12px;border-radius:6px;cursor:pointer}
 .topnav .cart-link{margin-left:auto;background:#eef2f5}
